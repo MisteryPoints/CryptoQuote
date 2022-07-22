@@ -71,7 +71,7 @@ function App() {
   return (
     <div >
       <Container>
-        <Image src={CryptoImage} alt='Crypto Image'/>
+        <Image src={CryptoImage} alt='Crypto Image' draggable='false'/>
         <div>
           <Heading>Insta~Quote Crypto Markets</Heading> 
           <Formulario

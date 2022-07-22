@@ -6,6 +6,7 @@ const monedas = [
     {id:'DOP', nombre:'Peso Dominicano'},
     {id:'JPY', nombre:'Yen Japonés'},
     {id:'COP', nombre:'Peso Colombiano'},
+    {id:'KRW', nombre:'Won Surcoreano'}
 
 ]
 

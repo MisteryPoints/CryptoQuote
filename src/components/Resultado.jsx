@@ -32,6 +32,7 @@ const Resultado = ({result}) => {
             <Imagen 
                 src={`https://cryptocompare.com/${IMAGEURL}`} 
                 alt="Imagen Cripto"
+                draggable='false'
             />
             <div>
                 <Info>El precio es de: <Data> {PRICE}</Data></Info>
