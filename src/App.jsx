@@ -17,6 +17,25 @@ const Container = styled.div`
   }
 `
 
+const Footer = styled.footer`
+  background-color: rgb(2 100 233);
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem;
+  border-top: 2px solid gray;  
+`
+const FooterText = styled.h2`
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: bold;
+  size: 1.75rem;
+`
+
 const Image = styled.img`
   max-width: 400px;
   width: 80%;
@@ -82,6 +101,9 @@ function App() {
           {result.PRICE && <Resultado result={result}/>}
         </div>
       </Container>
+      <Footer>
+        <FooterText>Desarrollado por DevPoint Víctor Tejada</FooterText>
+      </Footer>
     </div>
   )
 }
